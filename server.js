@@ -55,7 +55,7 @@ app.get('/:indexOfItemsArray', (req, res) => {
 app.get('/perscholas/:firstname',(req,res)=>{
     console.log(req.params);
     console.log( req.query);
-    res.send(`Hi  ${req.params.firstname}!`)
+    res.send(`Hi ${req.params.firstname}!`)
 })
 // Tell the app to listen on port 3000
 // for HTTP requests from clients
